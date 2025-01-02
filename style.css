@@ -135,6 +135,14 @@ iframe {
     margin-top: 20px;
 }
 
+/* Stil za slike */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
 /* Footer */
 footer {
     background-color: #357ab7;
@@ -178,5 +186,9 @@ footer {
 
     iframe {
         height: 450px;
+    }
+
+    img {
+        max-width: 90%;
     }
 }
