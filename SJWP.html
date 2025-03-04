@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RM - Predmeti | Luka Gredelj</title>
+    <title>SJWP - Predmet | Luka Gredelj</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
     <h1>SJWP - Predmet</h1>
-    <p>Laboratorijske vježbe i Seminarski radovi</p>
+    <p>Laboratorijske vježbe i Primjeri Koda</p>
 </header>
 
 <nav>
@@ -25,104 +25,51 @@
 </nav>
 
 <main>
-    <!-- Link za povratak na početnu stranicu -->
-    <a href="indexi.html" class="back-home">Povratak na početnu stranicu</a>
+    <a href="indexi.html">Povratak na početnu stranicu</a>
 
-    <section class="content-section">
+    <section>
         <h3>Laboratorijske vježbe</h3>
-        <p>Ovdje možete pronaći PDF dokumente sa laboratorijskim vježbama vezanim za predmet. Kliknite na poveznice kako biste preuzeli ili pregledali vježbe.</p>
+        <p>Ovdje možete pronaći PDF dokumente sa laboratorijskim vježbama vezanim za predmet SJWP. Kliknite na poveznice kako biste preuzeli ili pregledali vježbe.</p>
 
-        <!-- Popis svih laboratorijskih vježbi -->
-        <article class="exercise">
+        <div>
             <h4>LV1: Preglednici i pretraživači</h4>
-            <iframe src="LV1_Preglednici_i_pretrazivaci.pdf" title="LV1: Preglednici i pretraživači" width="100%" height="500px">
-                Vaš preglednik ne podržava prikaz PDF datoteka. <a href="LV1_Preglednici_i_pretrazivaci.pdf">Preuzmite PDF</a>.
-            </iframe>
-        </article>
+            <p><a href="LV1_Preglednici_i_pretrazivaci.pdf" download="LV1_Preglednici_i_pretrazivaci.pdf">Preuzmi LV1: Preglednici i pretraživači PDF</a></p>
+            <iframe src="LV1_Preglednici_i_pretrazivaci.pdf" title="LV1: Preglednici i pretraživači"></iframe>
+        </div>
 
-        <article class="exercise">
+        <div>
             <h4>LV2: Skriptni jezici</h4>
-            <iframe src="LV2_Skriptni_jezici.pdf" title="LV2: Skriptni jezici" width="100%" height="500px">
-                Vaš preglednik ne podržava prikaz PDF datoteka. <a href="LV2_Skriptni_jezici.pdf">Preuzmite PDF</a>.
-            </iframe>
-        </article>
+            <p><a href="LV2_Skriptni_jezici.pdf" download="LV2_Skriptni_jezici.pdf">Preuzmi LV2: Skriptni jezici PDF</a></p>
+            <iframe src="LV2_Skriptni_jezici.pdf" title="LV2: Skriptni jezici"></iframe>
+        </div>
 
-        <article class="exercise">
+        <div>
             <h4>LV3: Sustavi boja</h4>
-            <iframe src="LV3_Sustavi_boja.pdf" title="LV3: Sustavi boja" width="100%" height="500px">
-                Vaš preglednik ne podržava prikaz PDF datoteka. <a href="LV3_Sustavi_boja.pdf">Preuzmite PDF</a>.
-            </iframe>
-        </article>
+            <p><a href="LV3_Sustavi_boja.pdf" download="LV3_Sustavi_boja.pdf">Preuzmi LV3: Sustavi boja PDF</a></p>
+            <iframe src="LV3_Sustavi_boja.pdf" title="LV3: Sustavi boja"></iframe>
+        </div>
+    </section>
 
-        <article class="exercise">
-            <h4>LV4: Proces razvoja web sjedišta</h4>
-            <iframe src="LV4_Proces_razvoja_web_sjedišta.pdf" title="LV4: Proces razvoja web sjedišta" width="100%" height="500px">
-                Vaš preglednik ne podržava prikaz PDF datoteka. <a href="LV4_Proces_razvoja_web_sjedista.pdf">Preuzmite PDF</a>.
-            </iframe>
-        </article>
+    <section>
+        <h3>Primjer HTML kontakt forme</h3>
+        <p>Ispod je primjer jednostavne HTML kontakt forme:</p>
+        <form action="#" method="post">
+            <label for="ime">Ime:</label><br>
+            <input type="text" id="ime" name="ime"><br><br>
 
-        <article class="exercise">
-            <h4>LV5: HTML osnove</h4>
-            <iframe src="LV5_HTML_osnove.pdf" title="LV5: HTML osnove" width="100%" height="500px">
-                Vaš preglednik ne podržava prikaz PDF datoteka. <a href="LV5_HTML_osnove.pdf">Preuzmite PDF</a>.
-            </iframe>
-        </article>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
 
-        <article class="exercise">
-            <h4>LV6: HTML stilovi, slike i poveznice</h4>
-            <iframe src="LV6_HTML_stilovi_slike_poveznice.pdf" title="LV6: HTML stilovi, slike i poveznice" width="100%" height="500px">
-                Vaš preglednik ne podržava prikaz PDF datoteka. <a href="LV6_HTML_stilovi_slike_poveznice.pdf">Preuzmite PDF</a>.
-            </iframe>
-        </article>
+            <label for="poruka">Poruka:</label><br>
+            <textarea id="poruka" name="poruka" rows="4" cols="50"></textarea><br><br>
 
-        <article class="exercise">
-            <h4>LV7: HTML liste i tablice</h4>
-            <iframe src="LV7_HTML_liste_i_tablice.pdf" title="LV7: HTML liste i tablice" width="100%" height="500px">
-                Vaš preglednik ne podržava prikaz PDF datoteka. <a href="LV7_HTML_liste_i_tablice.pdf">Preuzmite PDF</a>.
-            </iframe>
-        </article>
-
-        <article class="exercise">
-            <h4>LV8: HTML obrasci</h4>
-            <iframe src="LV8_HTML_obrasci.pdf" title="LV8: HTML obrasci" width="100%" height="500px">
-                Vaš preglednik ne podržava prikaz PDF datoteka. <a href="LV8_HTML_obrasci.pdf">Preuzmite PDF</a>.
-            </iframe>
-        </article>
-
-        <article class="exercise">
-            <h4>LV9: HTML meta podaci i putanje</h4>
-            <iframe src="LV9_HTML_meta_podaci_putanje.pdf" title="LV9: HTML meta podaci i putanje" width="100%" height="500px">
-                Vaš preglednik ne podržava prikaz PDF datoteka. <a href="LV9_HTML_meta_podaci_putanje.pdf">Preuzmite PDF</a>.
-            </iframe>
-        </article>
-
-        <article class="exercise">
-            <h4>LV10: HTML Media</h4>
-            <iframe src="LV10_HTML_Media.pdf" title="LV10: HTML Media" width="100%" height="500px">
-                Vaš preglednik ne podržava prikaz PDF datoteka. <a href="LV10_HTML_Media.pdf">Preuzmite PDF</a>.
-            </iframe>
-        </article>
-
-        <article class="exercise">
-            <h4>LV11: HTML Layout</h4>
-            <iframe src="LV11_HTML_Layout.pdf" title="LV11: HTML Layout" width="100%" height="500px">
-                Vaš preglednik ne podržava prikaz PDF datoteka. <a href="LV11_HTML_Layout.pdf">Preuzmite PDF</a>.
-            </iframe>
-        </article>
-
-         <article class="exercise">
-            <h4>LV14: Povezivanje HTML-a i CSS-a </h4>
-            <iframe src="LV_14_Povezivanje_HTML-a_i_CSS-a.pdf" title="LV14: Povezivanje HTML-a i CSS-a" width="100%" height="500px">
-                Vaš preglednik ne podržava prikaz PDF datoteka. <a hrefLV_14_Povezivanje_HTML-a_i_CSS-a.pdf">Preuzmite PDF</a>.
-            </iframe>
-        </article>
+            <input type="submit" value="Pošalji">
+        </form>
     </section>
 </main>
 
-
-
 <footer>
-    <p>&copy; 2024 Luka Gredelj</p>
+    <p>© 2024 Luka Gredelj</p>
 </footer>
 
 </body>
